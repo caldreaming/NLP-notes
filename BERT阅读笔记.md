@@ -1,7 +1,5 @@
 **BERT预训练模型论文《[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)》的阅读笔记**
 
-[TOC]
-
 ## 一、Model Architecture 
 
 ### 规模
