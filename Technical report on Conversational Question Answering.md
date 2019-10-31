@@ -115,6 +115,7 @@ $$
 $$
 v_w^* =v_w+\epsilon g_w/\|g_w\|_2
 $$
+
 最后，虚拟对抗损失计算如下：
 $$
 L_{VAT}(\theta)=\frac{1}{N}\sum_{i=1}^{N}D_{KL}(p(\cdot |V;\theta)\|p(\cdot |V^* ;\theta))
