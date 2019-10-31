@@ -113,13 +113,13 @@ g_w=\bigtriangledown_{v^{'}}D_{KL}(p(\cdot|v_w;\widehat{\theta})\|p(\cdot|v_w^{'
 $$
 接着，与对抗训练相似，对抗扰动被加入词嵌入向量：
 $$
-v_w^*=v_w+\epsilon g_w/\|g_w\|_2
+v_w^* =v_w+\epsilon g_w/\|g_w\|_2
 $$
 最后，虚拟对抗损失计算如下：
 $$
-L_{VAT}(\theta)=\frac{1}{N}\sum_{i=1}^{N}D_{KL}(p(\cdot |V;\theta)\|p(\cdot |V^*;\theta))
+L_{VAT}(\theta)=\frac{1}{N}\sum_{i=1}^{N}D_{KL}(p(\cdot |V;\theta)\|p(\cdot |V^* ;\theta))
 $$
-$V^*$ 是对抗嵌入矩阵。
+$V^* $ 是对抗嵌入矩阵。
 
 注意到对抗训练和虚拟对抗训练用了不同的评估函数，即**交叉熵函数** $CrossEntropy()$ 和**KL松散度（相对熵）函数** $D_{KL}()$。这是因为前者是有监督的学习，可以直接用交叉熵计算预测值和真实标签之间的差距；后者是非监督学习，只能通过评估加入扰动前后的预测概率分布的差异程度来衡量预测值和实际值的差距。
 
