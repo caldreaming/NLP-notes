@@ -97,9 +97,9 @@ $$
 
 先由损失函数计算各个词嵌入向量的梯度，再根据梯度对词嵌入向量进行更新。这里 $y_i$ 是gold label，$\epsilon$ 是控制扰动大小的超参数。接着，对抗损失可以计算如下：
 $$
-L_ {AT}(\theta)=-\frac{1}{N}\sum_ {i=1}^{N}CrossEntropy(\cdot |V^{*};\theta)
-$$ 
-$V^*=[v_{w1}^{*},...,v_{wn}^{*}]$ 是对抗嵌入矩阵。
+L_{AT}(\theta)=-\frac{1}{N}\sum_{i=1}^NCrossEntropy(\cdot |V^*;\theta)
+$$
+$V^{*}=[v_{w1}^{*},...,v_{wn}^{*}]$ 是对抗嵌入矩阵。
 
 - #### Virtual Adversarial Training (VAT)  
 
