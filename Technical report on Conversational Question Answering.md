@@ -99,7 +99,7 @@ $$
 $$
 L_{AT}(\theta)=-\frac{1}{N}\sum_{i=1}^{N}CrossEntropy(\cdot |V^* ;\theta)
 $$
-$V^* =[v_{w1}^{*},...,v_{wn}^*]$ 是对抗嵌入矩阵。
+$V^* =[v_{w1}^* ,...,v_{wn}^* ]$ 是对抗嵌入矩阵。
 
 - #### Virtual Adversarial Training (VAT)  
 
