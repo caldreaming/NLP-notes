@@ -34,4 +34,5 @@ NSP可以利用主题特征做出预测（正样本两个句子来自同一主�
 
 ## 参考
 [如何看待瘦身成功版BERT——ALBERT？-小莲子的回答-知乎](https://www.zhihu.com/question/347898375/answer/863537122)
+
 [一文揭开ALBERT的神秘面纱](https://blog.csdn.net/u012526436/article/details/101924049)
