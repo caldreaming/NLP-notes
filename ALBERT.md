@@ -33,6 +33,5 @@ ALBERT提出SOP任务取代NSP，将NSP中的“coherence prediction”作为主
 NSP可以利用主题特征做出预测（正样本两个句子来自同一主题，负样本来自不同主题），这样一来“coherence prediction”的目标就没有达到。SOP消除了”topic prediction”的影响，使得模型能够学习到更为准确的句间连贯性特征。
 
 ## 参考
-
-[1]: https://www.zhihu.com/question/347898375/answer/863537122	"如何看待瘦身成功版BERT——ALBERT？-小莲子的回答-知乎"
-[2]: https://blog.csdn.net/u012526436/article/details/101924049	"一文揭开ALBERT的神秘面纱"
+[如何看待瘦身成功版BERT——ALBERT？-小莲子的回答-知乎](https://www.zhihu.com/question/347898375/answer/863537122)
+[一文揭开ALBERT的神秘面纱](https://blog.csdn.net/u012526436/article/details/101924049)
